@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be14522e-3b1e-4336-9b2c-3c2c1e548561" name="Default Changelist" comment="" />
+    <list default="true" id="be14522e-3b1e-4336-9b2c-3c2c1e548561" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application-client1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application-client2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-node1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-node2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +24,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -28,12 +41,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1V3G2sIc3UfbHCdyafs1ZXg3HSb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-server/src/main/resources" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-client/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\spring-cloud\springcloud\eureka-client\src\main\resources" />
       <recent name="D:\spring-cloud\springcloud\eureka-server\src\main\resources" />
     </key>
   </component>
@@ -49,10 +67,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application (1)">
-    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.eureka-client2">
+    <configuration name="eureka-client1" type="Application" factoryName="Application" temporary="true">
+      <envs>
+        <env name="spring.profiles.active" value="client1" />
+      </envs>
       <option name="MAIN_CLASS_NAME" value="com.study.eureka.client.Application" />
-      <module name="eurekaclient" />
+      <module name="eureka-client" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.study.eureka.client.*" />
@@ -63,9 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="eureka-client2" type="Application" factoryName="Application">
+      <envs>
+        <env name="spring.profiles.active" value="client2" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.study.eureka.client.Application" />
+      <module name="eureka-client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka-server-node1" type="Application" factoryName="Application" temporary="true">
+      <envs>
+        <env name="spring.profiles.active" value="node1" />
+      </envs>
       <option name="MAIN_CLASS_NAME" value="com.study.eureka.server.Application" />
-      <module name="eurekaserver" />
+      <module name="eureka-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.study.eureka.server.*" />
@@ -76,10 +110,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="eureka-server-node2" type="Application" factoryName="Application" temporary="true">
+      <envs>
+        <env name="spring.profiles.active" value="node2" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.study.eureka.server.Application" />
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.eureka.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.eureka-client2" />
+      <item itemvalue="Application.eureka-server-node1" />
+      <item itemvalue="Application.eureka-server-node2" />
+      <item itemvalue="Application.eureka-client1" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application (1)" />
-        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.eureka-client1" />
+        <item itemvalue="Application.eureka-server-node2" />
+        <item itemvalue="Application.eureka-server-node1" />
       </list>
     </recent_temporary>
   </component>
@@ -96,15 +153,18 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/eureka-server/src/main/java/com/study/eureka/server/Application.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

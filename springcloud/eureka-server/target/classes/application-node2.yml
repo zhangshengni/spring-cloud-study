@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: eureka-server
+  freemarker:
+    prefer-file-system-access: false
+
+server:
+  port: 7762
+
+eureka:
+  instance:
+    name: eureka-server-node2
+    hostname: localhost
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:7761/eureka/,http://${eureka.instance.hostname}:7762/eureka/
