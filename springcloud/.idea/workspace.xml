@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be14522e-3b1e-4336-9b2c-3c2c1e548561" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/hotswap_agent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/client-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/client-consumer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/target/classes/com/study/eureka/client/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/com/study/eureka/server/Application.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +45,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client-consumer/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client-consumer/pom.xml" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -69,7 +76,7 @@
   <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.client.consumer.Application" />
-      <module name="spring-cloud" />
+      <module name="client-consumer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.study.client.consumer.*" />
