@@ -9,7 +9,6 @@
         <module name="eurekaserver" />
         <module name="eureka-client" />
         <module name="eureka-server" />
-        <module name="clientconsumer" />
         <module name="eurekaclient" />
       </profile>
     </annotationProcessing>

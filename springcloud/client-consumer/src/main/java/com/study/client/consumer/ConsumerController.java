@@ -11,10 +11,10 @@ public class ConsumerController {
     @Autowired
     RestTemplate restTemplate;
 
-    private static final String HELLO_SERVICE = "HTTP://hello-service/";
+    private static final String HELLO_SERVICE = "http://localhost:8762/";
 
     @GetMapping("hello")
     public String hello() {
-        return restTemplate.getForEntity(HELLO_SERVICE + "/hello", String.class).getBody();
+        return restTemplate.getForEntity(HELLO_SERVICE, String.class).getBody();
     }
 }

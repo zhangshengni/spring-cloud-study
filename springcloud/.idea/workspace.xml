@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be14522e-3b1e-4336-9b2c-3c2c1e548561" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-consumer/clientconsumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-consumer/src/main/java/com/study/client/consumer/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-consumer/src/main/java/com/study/client/consumer/ConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-consumer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-consumer/target/classes/com/study/client/consumer/ConsumerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-consumer/clientconsumer.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-consumer/src/main/java/com/study/client/consumer/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client-consumer/src/main/java/com/study/client/consumer/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/client-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-consumer/target/classes/com/study/client/consumer/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/client-consumer/target/classes/com/study/client/consumer/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-consumer/target/client-consumer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/client-consumer/target/client-consumer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-consumer/target/client-consumer-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/client-consumer/target/client-consumer-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/client-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/client-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/target/eureka-client-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/target/eureka-client-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/target/eureka-client-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/target/eureka-client-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +83,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.eureka-client2">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.client.consumer.Application" />
+      <module name="spring-cloud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.client.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka-client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.study.eureka.client.Application" />
+      <module name="eureka-client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="eureka-client1" type="Application" factoryName="Application" temporary="true">
       <envs>
         <env name="spring.profiles.active" value="client1" />
@@ -137,17 +162,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="eureka-server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.study.eureka.server.Application" />
+      <module name="eureka-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.eureka-server" />
+      <item itemvalue="Application.eureka-client" />
       <item itemvalue="Application.eureka-client2" />
       <item itemvalue="Application.eureka-server-node1" />
       <item itemvalue="Application.eureka-server-node2" />
       <item itemvalue="Application.eureka-client1" />
+      <item itemvalue="Application.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.eureka-server-node1" />
         <item itemvalue="Application.eureka-client1" />
         <item itemvalue="Application.eureka-server-node2" />
-        <item itemvalue="Application.eureka-server-node1" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +205,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
